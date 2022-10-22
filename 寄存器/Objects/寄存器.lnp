@@ -1,0 +1,9 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\startup_stm32f10x_hd_1.o"
+".\objects\system_stm32f10x.o"
+--feedback ".\Objects\¼Ä´æÆ÷.fed" --feedback_image=none
+--strict --scatter ".\Objects\¼Ä´æÆ÷.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\¼Ä´æÆ÷.map" -o .\Objects\¼Ä´æÆ÷.axf
